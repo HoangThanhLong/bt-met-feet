@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi</title>
+</head>
+<body>
+<input type="text" id="inputFeet"><input type="button" value="change" onclick="coverFeet()">
+<p id="1"></p>
+<script>
+    function coverFeet() {
+        let feet = document.getElementById("inputFeet").value;
+        let met = 0.305 * feet;
+        document.getElementById("1").innerHTML = met;
+    }
+</script>
+</body>
+</html>
